@@ -9,10 +9,10 @@ odchk.addEventListener("click",gobtn);
 function gobtn(){
     var a=document.getElementById('od').value;
     if(a%2==0){
-        console.log("even")
+        document.getElementById('res').innerHTML="Even"
     }
     else{
-        console.log("odd")
+        document.getElementById('res').innerHTML="Odd"
     }
 }
 
